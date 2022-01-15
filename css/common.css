@@ -1,0 +1,211 @@
+/* 版心 */
+
+.container {
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.nav_line {
+    width: 64px;
+    height: 4px;
+    background-color: #F16D29;
+}
+
+.common_button {
+    width: 140px;
+    height: 42px;
+    background: #F16D29;
+    border-radius: 21px;
+    border-radius: 21px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+
+/* 导航栏部分 start */
+
+.header {
+    position: relative;
+    min-width: 1920px;
+    height: 80px;
+    background-color: #FFFFFF;
+}
+
+
+/* logo部分start */
+
+.logo {
+    width: 160px;
+    height: 44px;
+    padding-top: 18px;
+}
+
+.logo a {
+    display: block;
+    width: 160px;
+    height: 44px;
+    background-image: url(../images/logo@1x.png);
+}
+
+
+/* logo部分end */
+
+
+/* navitems导航栏选项start */
+
+.navitems {
+    position: absolute;
+    left: 610px;
+    bottom: -2px;
+    line-height: 80px;
+}
+
+.navitems ul li {
+    display: inline-block;
+    height: 22px;
+    padding-right: 50px;
+    font-size: 16px;
+    font-family: PingFangSC-Medium;
+    color: #333333;
+}
+
+.navitems ul li:last-child {
+    padding-right: 0px;
+}
+
+.navitems ul li:hover a {
+    height: 4px;
+    background-color: #F16D29;
+    color: #004D82;
+}
+
+.navitems ul li a {
+    display: inline-block;
+    height: 80px;
+}
+
+
+/* navitems导航栏选项end */
+
+
+/* 搜索框search部分 start */
+
+.search {
+    position: absolute;
+    left: 1284px;
+    top: 24px;
+    width: 180px;
+    height: 32px;
+    border: 1px solid #CCCCCC;
+    border-radius: 50px;
+}
+
+.search input {
+    font-family: PingFangSC-Regular !important;
+    color: #333333;
+    padding-left: 20px;
+    font-size: 14px;
+    width: 143px;
+    height: 100%;
+    border-radius: 50px 50px 50px 50px;
+}
+
+
+/* 搜索框search部分 end */
+
+
+/* 登录模块 start */
+
+.sign ul {
+    position: absolute;
+    left: 1496px;
+    top: 30px;
+}
+
+.sign ul li {
+    float: left;
+    font-size: 14px;
+}
+
+.sign ul li:nth-child(2) {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* 登录模块 end */
+
+
+/* 导航栏部分 end */
+
+
+/* footer部分 start */
+
+.footer {
+    width: 1920px;
+    height: 268px;
+    background-color: #042B46;
+}
+
+.mod_help {
+    width: 100%;
+    height: 268px;
+}
+
+.mod_help dl {
+    float: left;
+    padding-top: 43px;
+}
+
+.mod_help dl:nth-child(1) {
+    padding-right: 88px;
+}
+
+.mod_help dl:nth-child(2) {
+    padding-right: 98px;
+}
+
+.mod_help dl:nth-child(3) {
+    padding-right: 158px;
+}
+
+.mod_help dl:nth-child(4) {
+    padding-right: 152px;
+}
+
+.mod_help dl:nth-child(5) {
+    padding-right: 158px;
+}
+
+.mod_help dt {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.mod_help dd {
+    padding-top: 20px;
+    height: 28px;
+    display: block;
+}
+
+.mod_help a {
+    color: #C5C5C5;
+    font-size: 14px;
+}
+
+
+/* 版权部份 start */
+
+.mod_copyright {
+    width: 100%;
+    height: 48px;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 14px;
+    background-color: #021F33;
+}
+
+
+/* 版权部份 end */
